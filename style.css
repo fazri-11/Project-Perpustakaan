@@ -1,0 +1,103 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(141, 234, 247);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.img-header{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.ul-navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.li-navbar{
+    list-style-type: none;
+    padding: 10px;
+    border-style: double;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.li-navbar:hover{
+    background-color: whitesmoke;
+    transition: 1s ease-in-out;
+}
+
+.a-navbar{
+    text-decoration: none;
+    color: black;
+}
+
+.section-beranda{
+    padding: 30px 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 768px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        margin: 5px 0;
+    }
+}
+
+.form-transaksi{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.section-transaksi{
+    padding: 30px 15px;
+}
+
+.section-profil{
+    text-align: center;
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.div-login{
+    padding: 30px 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.5);;
+    max-width: 500px;
+}

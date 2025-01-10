@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Perpustakaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(perpustakaan.jpg);">
+    <header class="header">
+        <img src="logo_perpus.jpg" class="img-header">
+        <nav class="navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                <a href="index.html" class="a-navbar">Home</a>
+               <li class="li-navbar">
+                <a href="beranda.html" class="a-navbar">Beranda</a>
+               </li>
+               <li class="li-navbar">
+                <a href="transaksi.html" class="a-navbar">Transaksi</a>
+               </li>
+               <li class="li-navbar">
+                <a href="profil.html" class="a-navbar">Profil</a>
+               </li>
+               <li class="li-navbar">
+                <a href="login.html" class="a-navbar">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <secion class="section-transaksi">
+        <center>
+        <h2 style="color: white;">Transaksi Peminjaman</h2><hr style="margin: 10px; padding: 1px; background-color: white;">
+        </center>
+        <form id="transaksiForm" class="form-transaksi">
+            <label for="nama">Nama Peminjam : </label>
+            <input type="text" id="nama" name="nama" placeholder="Masukan Nama" required>
+            <br><br>
+            <label for="buku">Judul Buku : </label>
+            <input type="text" id="buku" name="buku" placeholder="Masukan Judul Buku" required>
+            <br><br>
+            <label for="tanggal">Tanggal Peminjaman : </label>
+            <input type="date" id="tanggal" name="tanggal" required>
+            <br><br>
+            <button type="submite">Simpan</button>
+        </form>
+    </secion>
+    <footer style="background-color: rgb(141, 234, 247); bottom: 0; padding: 10px; margin-top: 73px;"><center>
+        <h3>&copy;WEB Perpustakaan by Fazri Maulana</h3></footer></center>
+
+        <script src="script.js"></script>
+</body>
+</html>
